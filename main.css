@@ -1,0 +1,126 @@
+:root {
+    --dark-cerulean: #bbd0ff;
+    --maastricht-blue: #b8c0ff;
+    --yankees-blue: #c8b6ff;
+    --sea-serpent: #e7c6ff;
+    --aquamarine: #ffd6ff;
+    --react: azure;
+  }
+
+html{
+    background-image: url('./images/staticreactimage.jpeg');
+ 
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight:100;
+    color:azure
+  }
+
+.container {
+    display: flex;
+    text-indent: 88px;
+    margin-top: 70px;
+    margin-left: 400px;
+   
+    height: 400px;
+    width: 320px;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    opacity: 0.75;
+    background-image: linear-gradient(#c8b6ff, #ffd6ff)
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color:#e8edee;
+    font-size:xx-large;
+    font-weight: 100;
+    font-family: 'Goldman', cursive;
+}
+
+.para{
+    display:flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: -150px;
+    margin-right: 25px;
+
+}
+
+.rating {
+    display: flex;
+    text-indent: 60px;
+    margin-top: -403px;
+    margin-left: 850px;
+    
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(#e7c6ff, #ffd6ff)
+}
+
+.website {
+    display: flex;
+    text-indent: 40px;
+    font-size: 20px;
+    text-align:right;
+    margin-top: 45px;
+    margin-left: 500px;
+
+    height: 300px;
+    width: 1000px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(#e7c6ff, #ffd6ff) 
+}
+
+
+.analysis {
+    display: flex;
+    text-indent: 100px;
+    margin-top: -750px;
+    margin-left: 1300px;
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-image: linear-gradient(#e7c6ff, #ffd6ff)
+}
+
+.menu {
+    display: flex;
+    text-indent: 40px;
+    margin-top: -400px;
+    margin-right: 950px;
+    margin-left: 40px;
+    height: 700px;
+    width: 300px;
+    background-color: #ffd6ff; 
+    border-radius: 20px;
+}
+
+.list{
+    display: block;
+    margin-top: 100px;
+    margin-left: -150px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.list2{
+    display: block;
+    margin-top: 100px;
+    margin-left: -280px;
+    list-style-type: none;
+    text-align: center;
+    font-size: x-large;
+}
